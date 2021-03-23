@@ -1,8 +1,8 @@
 # Gallery
 
-This python/django web-app was created in order to display my images in a gallery format.Developed during Moringa Core. This is Week 8's Independent Project.
-Date: 2nd November 2018
-By: Donald Kiplagat
+This python/django web-app was created in order to display my images in a gallery format.
+Date: 19th March 2021
+By: Bunei shadrack
 
 ## Description
 This web-app allows the user to view teh admin's images while allowing the admin to add the images according with the following attributes: Location and Category.
