@@ -8,7 +8,7 @@ By: Bunei shadrack
 This web-app allows the user to view teh admin's images while allowing the admin to add the images according with the following attributes: Location and Category.
 
 ## Setup/Installation Requirements
-* Live site can be accessed from the following link appgallery12.herokuapp.com
+* Live site can be accessed from the following link:https://appgallery12.herokuapp.com/
 
 ### Known Bugs
 Copy button comes out of modal in smaller screen sizes.
