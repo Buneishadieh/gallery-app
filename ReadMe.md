@@ -9,9 +9,8 @@ This web-app allows the user to view teh admin's images while allowing the admin
 
 ## Setup/Installation Requirements
 <div align="center">
-    <img src="/home/moringa/Pictures/Screenshot from 2021-03-26 12-51-47.png" width="400px"</img> 
+    <img src="/home/moringa/Pictures/web.png" width="400px"</img> 
 </div>
-![Alt text](/home/moringa/Pictures/Screenshot from 2021-03-26 12-51-47.png?raw=true "Optional Title")
 * Live site can be accessed from the following link:https://appgallery12.herokuapp.com/
 
 ### Known Bugs
