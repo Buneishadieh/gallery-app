@@ -29,7 +29,7 @@ SECRET_KEY = 't-ez1@rt5q6@^ta%qhd221n@f7e@8lt&$o9xm=0+-0etm=b^^)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['photogallapp.heroku.com']
+ALLOWED_HOSTS = ['phtogallapp.heroku.com']
 
 
 # Application definition
