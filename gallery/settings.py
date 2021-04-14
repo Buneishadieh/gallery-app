@@ -9,6 +9,9 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 import os
 
@@ -34,6 +37,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'gallore',
     'bootstrap4',
+    'cloudinary',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -87,6 +91,8 @@ DATABASES = {
     }
 }
 
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -133,3 +139,9 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# cloudinary configurations
+cloudinary.config( 
+  cloud_name = "buneishadieh-cloud", 
+  api_key = "148812415861723", 
+  api_secret = "4dkAVOK4Wtm51301rMBAxuL0vXI" 
+)

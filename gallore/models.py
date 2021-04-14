@@ -1,4 +1,6 @@
 from django.db import models
+from django.contrib.auth.models import User
+from cloudinary.models import CloudinaryField
 
 # Create your models here.
 class categories(models.Model):
@@ -30,7 +32,7 @@ class Image(models.Model):
     description = models.TextField()
     location = models.ForeignKey(Location,on_delete=models.CASCADE)
     categories = models.ManyToManyField(categories)
-    image_url = models.ImageField(upload_to = 'images/',blank=True,default="image_url")
+    image_url = CloudinaryField('images')
 
     def __str__(self):
         return self.title
