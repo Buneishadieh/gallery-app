@@ -145,3 +145,4 @@ cloudinary.config(
   api_key = "148812415861723", 
   api_secret = "4dkAVOK4Wtm51301rMBAxuL0vXI" 
 )
+# database configurations
