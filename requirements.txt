@@ -1,6 +1,7 @@
 appdirs==1.4.3
 asgiref==3.3.4
 beautifulsoup4==4.9.3
+bundle==1.1.2
 CacheControl==0.12.6
 certifi==2019.11.28
 chardet==3.0.4
@@ -35,3 +36,4 @@ sqlparse==0.4.1
 urllib3==1.25.8
 webencodings==0.5.1
 whitenoise==5.2.0
+yolk==0.4.3
