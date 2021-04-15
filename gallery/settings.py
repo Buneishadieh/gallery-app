@@ -29,7 +29,7 @@ SECRET_KEY = 't-ez1@rt5q6@^ta%qhd221n@f7e@8lt&$o9xm=0+-0etm=b^^)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['phtogallapp.heroku.com']
+ALLOWED_HOSTS = ['phtogallapp.heroku.com','127.0.0.1']
 
 
 # Application definition
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'gallery.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'gallery',
+        'NAME': 'photos',
         'USER': 'gallery1',
         'PASSWORD':'gallery1',
         'HOST':'127.0.0.1',
